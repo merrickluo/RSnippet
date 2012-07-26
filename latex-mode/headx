@@ -1,0 +1,4 @@
+\documentclass[a4paper,UTF8,nofonts]{ctexart}
+\usepackage[T1]{fontenc}
+\setCJKmainfont[ItalicFont={Adobe Song Std}]{Adobe Kaiti Std}
+\setCJKsansfont{Adobe Heiti Std}

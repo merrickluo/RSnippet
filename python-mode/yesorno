@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-05 12:57:46 Monday by richard>
+# name: (y)es to continue, (n)o to end...
+# key: yntip
+# contributor: Richard Wong <chao78787@gmail.com>
+# --
+Enter Y(es) to continue, N(o) to end

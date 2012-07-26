@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-04-12 14:31:46 Thursday by richard>
+# name: while
+# key: while
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+while ${condition}:
+    $0

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-02-29 17:06:24 Wednesday by richard>
+# name: test_main
+# key: tmain
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+#include <gtest/gtest.h>
+
+int main(int argc, char *argv[]) {
+    ::testing::InitGoogleTest(&argc, argv);
+$0
+    return RUN_ALL_TESTS();
+}

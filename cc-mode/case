@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-01-23 23:05:23 Monday by richard>
+# name : case: ... break;
+# key : c
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+case  ${1:caseID}:
+$0
+break;

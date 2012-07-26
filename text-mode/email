@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-02-16 10:23:03 Thursday by richard>
+# name: email
+# key: email
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+`(replace-regexp-in-string "@" "[AT]" user-mail-address)`

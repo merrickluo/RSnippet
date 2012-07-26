@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-03-04 10:53:42 Sunday by richard>
+# name: project
+# key: project
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+project (${1:Project Name} CXX)

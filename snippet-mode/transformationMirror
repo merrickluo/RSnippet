@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-05-27 16:08:54 Friday by richard>
+# name: mirror and transformation
+# key: mirrort
+# contributor: Richard Wong <chao78787@Gmail.com>
+# --
+\${${1:1}:Title}
+\${${1:1}:\$(make-string (string-width text) ?\=)}

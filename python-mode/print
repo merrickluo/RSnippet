@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-07 16:43:44 Wednesday by richard>
+# name: print..
+# key: p
+# contributor: Richard Wong <chao78787@gmail.com>
+# --
+print $0

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-03-05 15:56:54 Monday by richard>
+# name: operator<<
+# key: <<
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+std::ostream& operator<<(std::ostream& os, const ${1:`(find-backward-class-name)`}& ${2:c});
+{
+$0
+return os;
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: operator==
+# key: ==
+# contributor: Andrea crotti
+# --
+bool ${1:`(find-backward-class-name)`}::operator==(const $1& other) const {
+     $0
+}

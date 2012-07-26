@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-06 11:43:54 Tuesday by richard>
+# name: link(github markup...)
+# key: link
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+[${1:name}][${2:link}]

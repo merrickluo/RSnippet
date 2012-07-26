@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-07-03 17:53:43 Tuesday by richard>
+# name: headx
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+#!/usr/bin/env python2
+# coding=utf-8
+
+# Last modified: < >
+
+# @version 0.1
+# @author : `user-full-name`
+# Email: `user-mail-address`
+$0
+
+# `(file-name-nondirectory (buffer-file-name))` ended here

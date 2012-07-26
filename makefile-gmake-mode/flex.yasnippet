@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-02-29 12:45:18 Wednesday by richard>
+# name: lex compile template.
+# key: temp1
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+# -*- mode: makefile-gmake -*-
+# Last modified: < >
+# Version 0.1
+# Author: `user-full-name` <`user-mail-address`>
+
+Object=$0
+
+LEX=flex
+CC=gcc
+
+
+$(Object): $(Object).o 
+	$(CC) -o $@  $(LDFLAGS) $^ -lfl
+
+$(Object).o: $(Object).c
+	$(CC) $(CPPFLAGS) $(CFLAGS) -o $@ -c $^
+
+$(Object).c: $(Object).l
+	$(LEX) $(LFLAGS) -o $(Object).c $(Object).l
+
+clean:
+	$(RM) *.c *.o $(Object)
+

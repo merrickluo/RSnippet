@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-16 09:58:22 Friday by richard>
+# name : if (...) { ... }
+# key: if
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+if (${1:condition}){
+    $0
+}

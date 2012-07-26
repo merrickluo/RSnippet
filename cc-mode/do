@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-01-23 22:28:07 Monday by richard>
+# name : do { ... } while (...)
+# key: do
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+do
+{
+    $0
+} while (${1:condition});

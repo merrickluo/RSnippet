@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-02-09 11:14:47 Thursday by richard>
+# name : headx
+# key : headx
+# contributor: Richard Wong <chao78787@Gmail.com>
+# --
+# -*- mode: org -*-
+# Last modified: < >
+#+STARTUP: showall
+#+TITLE:   ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}
+
+$0

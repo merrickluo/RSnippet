@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-05-23 14:56:44 Monday by richard>
+# name : template <typename ...> class <T...>
+# key: templatec
+# contributor: Richard Wong 
+# Email: chao78787@Gmail.com
+# --
+
+
+template <typename ${1:T}>
+class ${2:className}
+{
+public:
+    $2 ();
+    ${5:virtual }~$2 ();
+
+
+private:
+    ${3:$1} ${4:var};
+
+};

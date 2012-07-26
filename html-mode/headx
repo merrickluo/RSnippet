@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-06-07 17:20:52 Thursday by richard>
+# name: headx
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+<!DOCTYPE html>
+<html>
+<head>
+<title>$0Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+
+</body>
+</html>

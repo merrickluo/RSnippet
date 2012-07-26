@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-11-23 20:57:12 Wednesday by richard>
+# name: unused_(variables in string)
+# key: u
+# contributor: Richard Wong <chao78787@gmail.com>
+# --
+unused_

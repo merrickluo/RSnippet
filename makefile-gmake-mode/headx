@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-02-06 21:02:16 Monday by richard>
+# name: headx
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+### Makefile.tpl --- ($0)
+
+## Author: (`user-full-name`)
+## Version: $Id: (`(buffer-name)`),v 0.1  Exp $
+## Keywords: $1
+## X-URL: $2
+
+
+### (`(buffer-name)`) ends here
+

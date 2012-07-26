@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-02-09 09:42:32 Thursday by richard>
+# name: for ... in ...
+# key: for
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+for ${1:var} in ${2:collection}:
+    $0

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-11-29 12:44:13 Tuesday by richard>
+# name: try:... except:...
+# key: try
+# contributor: Richard Wong <chao78787@gmail.com>
+# --
+try:
+    $0
+
+except:
+
+finally:

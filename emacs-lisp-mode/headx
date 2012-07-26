@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-02-08 21:47:07 Wednesday by richard>
+# name: auto-head for el. files.
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+;; -*- Emacs-Lisp -*-
+;; Last modified: <2011-12-08 20:40:21 Thursday by richard>
+
+;; Copyright (C) `(format-time-string "%Y")` `user-full-name`
+
+;; Author: `user-full-name`
+;; Email: `user-mail-address`
+
+;; Version: 0.1
+;; PUBLIC LICENSE: GPLv3
+
+(and (featurep '`(setq el-provide-name (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))))`)
+     (error "`el-provide-name` cannot be loaded twice in the same Emacs session."))
+
+(and (< emacs-major-version 20) (eval-when-compile (require 'cl))) ;; cadr, when, unless
+$0
+
+(provide '`el-provide-name`)
+;; `el-provide-name` ends here.
+;;;

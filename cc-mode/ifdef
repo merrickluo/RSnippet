@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-01-23 22:35:04 Monday by richard>
+# name: #ifdef ... #endif
+# key: ifdef
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+#ifdef ${1:MACRO}
+
+$0
+
+#endif // $1

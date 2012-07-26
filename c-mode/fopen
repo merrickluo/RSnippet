@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-01-23 22:40:48 Monday by richard>
+# name: FILE *fp = fopen(..., ...);
+# key: FILE
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+FILE *${fp} = fopen(${1:"file"}, "${2:r}");

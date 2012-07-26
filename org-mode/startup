@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-09 15:45:15 Friday by richard>
+# name: #+STARTUP (help snippet)
+# key: start
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+#+STARTUP: content
+;; overview | content | showall | showeverything

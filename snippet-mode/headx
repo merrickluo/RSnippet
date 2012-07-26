@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-03-05 15:42:48 Monday by richard>
+# name: snippet headx
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+# -*- mode: snippet -*-
+# Last modified: < >
+# name: ${1:`(if (buffer-file-name)
+               (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))
+              (buffer-name))`}
+# key: ${2:`(if (buffer-file-name)
+               (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))
+              (buffer-name))`}
+# contributor: `user-full-name` <`user-mail-address`>
+# --
+$0

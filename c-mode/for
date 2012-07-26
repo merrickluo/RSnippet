@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-01-24 00:57:50 Tuesday by richard>
+# name : for (...; ...; ...) { ... }
+# key: for
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+for (${1:i} = ${2:0}; ${i} < ${3:N}; ${4:++${1:}})
+{
+    $0
+}

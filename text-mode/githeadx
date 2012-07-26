@@ -1,0 +1,39 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-04-24 10:52:06 Tuesday by richard>
+# name: git
+# key: git
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+# python projects
+# Mac OS X
+*.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Generated files
+*.o
+*.pyc
+
+#Python modules
+MANIFEST
+dist/
+build/
+
+# Backup files
+*~.nib
+\#*#
+.#*
+
+# Local management temp files
+*.ropeproject*
+
+# addition files.
+$0
+

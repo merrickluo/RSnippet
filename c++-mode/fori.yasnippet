@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-03-06 18:10:17 Tuesday by richard>
+# name: fori
+# key: fori
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+for (${1:std::vector<int>::iterator} ${2:iter} = ${3:var}.begin();
+$2 != $3.end();
+++$2) {
+    $0
+}

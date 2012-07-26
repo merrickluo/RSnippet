@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-11 21:12:39 Sunday by richard>
+# name: date...
+# key: date
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+`(format-time-string "%Y-%m-%d")`

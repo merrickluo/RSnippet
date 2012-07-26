@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-05-24 10:50:21 Tuesday by richard>
+# name: templatememberfunction
+# key: tempmemberfunction
+# key: tempmf
+# contributor: Richard Wong 
+# Email: chao78787@Gmail.com
+# --
+
+template <typename ${1:T}>
+${2:$1} ${3:classname}<$1>::${4:function}($5) 
+{
+    $0
+}

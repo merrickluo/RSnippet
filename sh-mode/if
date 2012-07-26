@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-16 09:59:25 Friday by richard>
+# name: if [...] then ...
+# key: if
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+if [ ${1:bash-condition} ]; then
+   $0

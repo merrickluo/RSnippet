@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-03-05 22:59:00 Monday by richard>
+# name: headx
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+########################################################################
+# CMake build script for ${1:Project Name}
+#
+# Alternatively, you can use 'gheadx' or 'hheadx' as yas-keyword.
+SET(SRC_LIST        main.cc)
+$0
+ADD_EXECUTABLE(main \${SRC_LIST})

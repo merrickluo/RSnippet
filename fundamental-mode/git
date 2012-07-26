@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-06 13:55:40 Tuesday by richard>
+# name: gitignore ~....
+# key: gig
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+*~
+#*#
+$0

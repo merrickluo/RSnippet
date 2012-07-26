@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-03-05 16:02:10 Monday by richard>
+# name: memberfunction
+# key: mf
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+${1:type} `(find-backward-class-name)`::${2:name}($0) ${3: const}
+{
+    $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-05 12:55:19 Monday by richard>
+# name: (return tips)Hit return to... Ctrl-C to ...
+# key: retip
+# contributor: Richard Wong <chao78787@gmail.com>
+# --
+hit RETURN to continue, CTRL-C to abort.

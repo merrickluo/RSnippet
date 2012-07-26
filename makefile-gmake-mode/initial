@@ -1,0 +1,16 @@
+# -*- mode: GNU-makefile-mode -*-
+# name:initial
+# key:initial
+# --
+
+SRC = {$1:sourcefile}.cpp
+OBJ = ${SRC:.c=.o}
+CFLAGS = `pkg-config gtk+-2.0 gtksourceview-2.0 --cflags`
+LDADD = `pkg-config gtk+-2.0 gtksourceview-2.0 --libs`
+CC = gcc
+
+all: ${OBJ}
+   ${CC} -g -o ${PACKAGE} ${OBJ} ${LDADD}
+
+.c.o:
+   ${CC} ${CFLAGS} -c $<

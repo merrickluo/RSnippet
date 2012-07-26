@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-09 15:46:11 Friday by richard>
+# name: #+TAGS
+# key: tag
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+#+TAGS: { GoodBehavior(g)  GoodSentence(s) Miscellaneous(m)}

@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-07 21:35:48 Wednesday by richard>
+# name: config setup()...
+# key: config
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+config = {
+    'description' : '$0My Project',
+    'author': '`user-full-name`',
+    'url': 'URL to get it at.',
+    'download_url':'where to download it.', 
+    'author_email':'`user-mail-address`',
+    'version': '0.1',
+    'install_requires':['nose'],
+    'packages':['NAME'],
+    'script':[],
+    'name':'projectname'
+}

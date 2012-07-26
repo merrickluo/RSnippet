@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-06 11:42:21 Tuesday by richard>
+# name: mdhelper.
+# key: md
+# contributor: Richard Wong <chao78787@gmail.com>
+# --
+Title
+=====
+
+title
+-----
+
+[text](link)
+[text][footnote1]
+
+* bullet
+\`keywords\`
+### section
+    code
+
+[footnote1]: 

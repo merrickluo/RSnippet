@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-04-28 10:55:20 Saturday by richard>
+# name: headxh(c head file guard)
+# key: headxh
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+/***********************************************************
+ * Last modified: < >
+ * Copyright (C) `(format-time-string "%Y")` `user-full-name`
+ * File: `(buffer-name)`
+ * Author: `user-full-name`
+ * Email: `user-mail-address`
+ * PUBLIC LICENSE: GPLv3
+ * version 0.1
+ **********************************************************/
+
+#ifndef _`(replace-regexp-in-string "\\\." "_" (upcase (buffer-name)))`_`(random t)`_
+#define _`(replace-regexp-in-string "\\\." "_" (upcase (buffer-name)))`_`(random t)`_
+
+$0
+
+
+
+
+
+#endif
+/* `(buffer-name)` ends here.*/

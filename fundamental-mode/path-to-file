@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# Time-stamp: <2011-12-06 11:34:55 Tuesday by richard>
+# name: path to the file comment
+# key: p
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+/path/to/file/

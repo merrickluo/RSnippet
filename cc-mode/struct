@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-01-23 22:38:15 Monday by richard>
+# name: struct... {...}
+# key: struct
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+struct ${1:name}
+{
+    $0
+};

@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# Last modified: <2012-04-28 10:42:22 Saturday by richard>
+# name: headx
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+/***********************************************************
+ * Last modified: < >
+ * Copyright (C) `(format-time-string "%Y")` `user-full-name`
+ * File: `(buffer-name)`
+ * Author: `user-full-name`
+ * Email: `user-mail-address`
+ * PUBLIC LICENSE: GPLv3
+ * version 0.1
+ **********************************************************/
+`(let ((head-file-name (concat
+                       (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))
+                       ".h")))
+  (when (file-exists-p (expand-file-name head-file-name))
+    (insert-string (concat "#include \"" head-file-name "\""))))`
+
+$0
+
+
+
+
+
+/* `(file-name-nondirectory (buffer-file-name))` ends here.*/
