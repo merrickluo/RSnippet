@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-02-09 11:14:47 Thursday by richard>
+# Last modified: <2012-07-30 16:50:44 Monday by richard>
 # name : headx
 # key : headx
 # contributor: Richard Wong <chao78787@Gmail.com>
@@ -7,6 +7,8 @@
 # -*- mode: org -*-
 # Last modified: < >
 #+STARTUP: showall
+#+LaTeX_CLASS: latex-org-report-article
+#+TODO: TODO(t) UNDERGOING(u) | DONE(d) CANCELED(c)
 #+TITLE:   ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}
 
 $0
