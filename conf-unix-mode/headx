@@ -1,2 +1,8 @@
-# -*- conf -*-
-# Last modified: <>
+# -*- mode: snippet -*-
+# Last modified: <2012-11-02 12:45:02 Friday by richard>
+# name: headx
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+# -*- conf-unix -*-
+# Last modified: < >
