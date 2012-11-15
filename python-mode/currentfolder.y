@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-08-03 21:51:52 Friday by richard>
+# Last modified: <2012-11-13 18:38:32 Tuesday by richard>
 # name: folder
-# key: currentfolder
+# key: cf
 # contributor: Richard Wong <chao787@gmail.com>
 # --
 import inspect
