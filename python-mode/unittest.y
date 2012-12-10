@@ -1,11 +1,12 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-08-15 17:19:38 Wednesday by richard>
+# Last modified: <2012-12-10 17:57:25 Monday by richard>
 # name: unittest
 # key: test
 # contributor: Richard Wong <chao787@gmail.com>
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # --
 import unittest
+
 
 class ${1:MyTestCase}(unittest.TestCase):
 
