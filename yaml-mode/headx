@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# Last modified: <2013-09-29 10:39:12 Sunday by wongrichard>
+# name: headx
+# key: headx
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+---
+# Description: $0
+#
+# Parameters - Must be definied in playbook:
+#   - p
