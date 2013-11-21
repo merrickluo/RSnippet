@@ -1,17 +1,15 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-08-21 07:17:42 Tuesday by richard>
+# Last modified: <2013-10-20 11:19:33 Sunday by wongrichard>
 # name: headx
 # key: headx
 # contributor: Richard Wong <chao787@gmail.com>
 # --
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-
-# Last modified: < >
-
-# @version 0.1
-# @author : `user-full-name`
-# Email: `user-mail-address`
+#
+# Copyright `(format-time-string "%Y")` niqu.me
+#
 $0
+
 
 # `(file-name-nondirectory (buffer-file-name))` ended here

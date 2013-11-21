@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2013-09-09 17:07:22 Monday by wongrichard>
+# Last modified: <2013-10-01 15:33:38 Tuesday by wongrichard>
 # name: tornado
 # key: tornado
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
 import tornado.httpserver

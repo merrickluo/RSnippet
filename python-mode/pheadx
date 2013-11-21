@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# Last modified: <2013-10-20 10:56:41 Sunday by wongrichard>
+# name: pheadx
+# key: pheadx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+
+# Last modified: < >
+
+# @version 0.1
+# @author : `user-full-name`
+# Email: `user-mail-address`
+$0
+
+# `(file-name-nondirectory (buffer-file-name))` ended here
