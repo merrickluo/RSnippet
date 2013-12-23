@@ -1,0 +1,32 @@
+# -*- mode: snippet -*-
+# Last modified: <2013-12-23 16:15:48 Monday by wongrichard>
+# name: headx
+# key: headx
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+'use strict';
+
+/**
+ * Copyright `(format-time-string "%Y")` niqu.me
+ *
+ * @ngdoc overview
+ * @name ngCookies
+ * @description
+ *
+ * # ngCookies
+ *
+ * The `ngCookies` module provides a convenient wrapper for reading and writing browser cookies.
+ *
+ * {@installModule cookies}
+ *
+ * <div doc-module-components="ngCookies"></div>
+ *
+ * See {@link ngCookies.$cookies `$cookies`} and
+ * {@link ngCookies.$cookieStore `$cookieStore`} for usage.
+ */
+
+
+var app = angular.module("$0`(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`", []);
+
+
+// `(file-name-nondirectory (buffer-file-name))` ended here

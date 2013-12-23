@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-12-08 10:10:26 Saturday by richard>
+# Last modified: <2013-12-19 17:53:43 Thursday by wongrichard>
 # name: a
 # key: a
 # contributor: Richard Wong <chao787@gmail.com>
