@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# Last modified: <2013-12-23 16:23:33 Monday by wongrichard>
+# Last modified: <2013-12-28 23:25:10 Saturday by wongrichard>
 # name: ngif
-# key: ngif
+# key: if
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --

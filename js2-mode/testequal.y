@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2013-12-28 00:42:28 Saturday by wongrichard>
-# name: link
-# key: link
+# Last modified: <2014-02-14 10:38:04 Friday by wongrichard>
+# name: testequal
+# key: equal
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-<link rel="stylesheet" href="$0" />
+expect($1).toEqual("$0");

@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2013-12-28 00:42:28 Saturday by wongrichard>
-# name: link
-# key: link
+# Last modified: <2013-12-30 14:44:32 Monday by wongrichard>
+# name: bower
+# key: bower
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-<link rel="stylesheet" href="$0" />
+bower_components/$0

@@ -1,16 +1,17 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-06-07 17:20:52 Thursday by richard>
+# Last modified: <2013-12-30 14:43:28 Monday by wongrichard>
 # name: headx
 # key: headx
 # contributor: Richard Wong <chao787@gmail.com>
 # --
 <!DOCTYPE html>
-<html>
+<html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="$0">
 <head>
-<title>$0Title of the document</title>
+<meta charset="utf-8">
+<title>Title of the document</title>
 </head>
 
-<body>
+<body ng-controller="AppCtrl as app">
 The content of the document......
 
 </body>
