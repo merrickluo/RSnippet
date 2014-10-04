@@ -1,9 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2014-05-08 09:17:13 Thursday by wongrichard>
-# name: session
-# key: ss
+# Last modified: <2014-07-26 22:13:57 Saturday by wongrichard>
+# name: nonnilForKey
+# key: non
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-with session_scope() as session:
-    session.$0
+[dictionary nonnilForKey:@"$0"];

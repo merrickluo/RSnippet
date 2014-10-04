@@ -4,7 +4,7 @@
 # key: defm
 # contributor: Richard Wong <chao787@gmail.com> Yasser Gonz¨¢lez Fern¨¢ndez <yglez@uh.cu>
 # --
-def ${1:name}(self, $2):
+def ${1:name}(self, ${2:text}):
     """$3
     ${2:$
     (let* ((indent
@@ -23,7 +23,7 @@ def ${1:name}(self, $2):
                       (replace-regexp-in-string "^[[:blank:]]*" "" x)))
                   x))
               (mapcar '(lambda (x) (split-string x "="))
-                      (split-string text ",")))
+                      (split-string yas-text ",")))
              indent)))
       (if (string= args "")
           (make-string 3 34)

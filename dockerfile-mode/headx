@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# Last modified: <2014-09-14 09:42:27 Sunday by wongrichard>
+# name: headx
+# key: headx
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+## -*- docker-image-name: "$0your-image-name-here" -*-
+FROM ubuntu:14.04
+MAINTAINER Richard Wong "chao787@gmail.com"
+ENV REFRESHED_AT 2014-07-01
+RUN apt-get -qq update
+
+# `(file-name-nondirectory (buffer-file-name))` ended here
