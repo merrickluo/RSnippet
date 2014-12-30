@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2014-12-11 11:34:23 Thursday by wongrichard>
-# name: log
-# key: log
+# Last modified: <2014-11-30 16:14:38 Sunday by wongrichard>
+# name: colorprint
+# key: cp
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-console.log("%c$0", "color: blue; font-size: large");
+print('\033[91m' + '$0' + '\033[0m')
