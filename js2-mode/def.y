@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
-# Last modified: <2014-02-13 09:51:34 Thursday by wongrichard>
+# Last modified: <2015-02-02 15:09:24 Monday by wongrichard>
 # name: def
 # key: def
-# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
 function(){

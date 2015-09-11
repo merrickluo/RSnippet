@@ -1,10 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2015-03-24 12:16:57 Tuesday by wongrichard>
-# name: then
-# key: then
+# Last modified: <2015-05-16 13:38:01 Saturday by wongrichard>
+# name: logger
+# key: logger
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-then(function(resp){
-    $0
-});
+log = logging.getLogger(__name__)

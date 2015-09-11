@@ -4,4 +4,4 @@
 # key: p
 # contributor: Richard Wong <chao78787@gmail.com>
 # --
-print($0)
+print\($0\)

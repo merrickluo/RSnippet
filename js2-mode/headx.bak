@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# Last modified: <2015-01-08 15:19:27 Thursday by wongrichard>
+# Last modified: <2015-01-08 15:19:06 Thursday by wongrichard>
 # name: headx
 # key: headx
 # contributor: Richard Wong <chao787@gmail.com>
@@ -7,12 +7,18 @@
 'use strict';
 
 /**
+ * Copyright `(format-time-string "%Y")` Richard Wong
+ *
+ * @ngdoc overview
  * @name `(file-name-nondirectory (buffer-file-name))`
  * @description
  *
  * # `(file-name-nondirectory (buffer-file-name))`
  *
- * $0
+ * {@installModule `(file-name-nondirectory (buffer-file-name))`}
+ *
+ * <div doc-module-components="`(file-name-nondirectory (buffer-file-name))`"></div>
+ *
  */
 
 var app = angular.module("$0`(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`", []);

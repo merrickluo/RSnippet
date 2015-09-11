@@ -1,0 +1,46 @@
+# -*- mode: snippet -*-
+# Last modified: <2015-01-26 20:01:49 Monday by wongrichard>
+# name: theadx
+# key: theadx
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# contributor: Richard Wong <chao787@gmail.com>
+# --
+/**
+ * @name `(file-name-nondirectory (buffer-file-name))`
+ * @description
+ *
+ * # `(file-name-nondirectory (buffer-file-name))`
+ *
+ * $0
+ */
+
+describe('Unit: \``(file-name-nondirectory (buffer-file-name))`\`', function() {
+  // Our tests will go here
+  var test_module;
+  beforeEach(function(){
+    test_module = module('`(file-name-nondirectory (buffer-file-name))`');
+    module('micai.templates');
+  });
+
+  it("should be registered", function() {
+    expect(test_module).not.toBe(null);
+  });
+
+  describe("Dependencies", function(){
+    var ctrl, scope;
+    beforeEach(inject(function($controller, $rootScope) {
+      scope = $rootScope.$new();
+      ctrl = $controller('HomeCtrl', {
+        $scope: scope
+      });
+    }));
+
+    it('should have a HomeCtrl controller', function() {
+      expect(ctrl).not.toEqual(null);
+    });
+
+  });
+});
+
+
+// `(file-name-nondirectory (buffer-file-name))` ended here

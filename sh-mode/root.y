@@ -1,10 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2015-03-24 12:16:57 Tuesday by wongrichard>
-# name: then
-# key: then
+# Last modified: <2015-05-17 17:01:11 Sunday by wongrichard>
+# name: root
+# key: root
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-then(function(resp){
-    $0
-});
+export ROOT="$( cd "$(dirname "$0")" ; pwd )"

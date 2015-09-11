@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-04-28 10:55:20 Saturday by richard>
+# Last modified: <2015-01-28 10:29:07 Wednesday by wongrichard>
 # name: headxh(c head file guard)
 # key: headxh
 # contributor: Richard Wong <chao787@gmail.com>
@@ -14,8 +14,8 @@
  * version 0.1
  **********************************************************/
 
-#ifndef _`(replace-regexp-in-string "\\\." "_" (upcase (buffer-name)))`_`(random t)`_
-#define _`(replace-regexp-in-string "\\\." "_" (upcase (buffer-name)))`_`(random t)`_
+#ifndef _`(replace-regexp-in-string "\\\." "_" (upcase (buffer-name)))`_`(setq random-number-headxh (abs (random t)))`_
+#define _`(replace-regexp-in-string "\\\." "_" (upcase (buffer-name)))`_`random-number-headxh`_
 
 $0
 

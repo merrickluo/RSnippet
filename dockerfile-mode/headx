@@ -1,14 +1,20 @@
 # -*- mode: snippet -*-
-# Last modified: <2014-09-14 09:42:27 Sunday by wongrichard>
+# Last modified: <2015-08-15 08:56:39 Saturday by wongrichard>
 # name: headx
 # key: headx
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
+# TODO: make $0 parent folder name
 # --
 ## -*- docker-image-name: "$0your-image-name-here" -*-
 FROM ubuntu:14.04
-MAINTAINER Richard Wong "chao787@gmail.com"
-ENV REFRESHED_AT 2014-07-01
+MAINTAINER `user-full-name` <`user-mail-address`> `user-nick-name`
+
+ENV REFRESHED_AT `(format-time-string "%Y-%m-%d")`
 RUN apt-get -qq update
+
+ENV TIME_ZONE Asia/Shanghai
+RUN echo \${TIME_ZONE} > /etc/timezone && \
+    dpkg-reconfigure --frontend noninteractive tzdata
 
 # `(file-name-nondirectory (buffer-file-name))` ended here

@@ -1,10 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2015-03-24 12:16:57 Tuesday by wongrichard>
-# name: then
-# key: then
+# Last modified: <2015-07-24 08:31:50 Friday by wongrichard>
+# name: pdb
+# key: pdb
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-then(function(resp){
-    $0
-});
+import pdb; pdb.set_trace()
