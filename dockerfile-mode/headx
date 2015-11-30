@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# Last modified: <2015-08-15 08:56:39 Saturday by wongrichard>
+# Last modified: <2015-10-16 18:40:15 Friday by wongrichard>
 # name: headx
 # key: headx
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
@@ -10,11 +10,17 @@
 FROM ubuntu:14.04
 MAINTAINER `user-full-name` <`user-mail-address`> `user-nick-name`
 
+ENV LC_ALL C.UTF-8
 ENV REFRESHED_AT `(format-time-string "%Y-%m-%d")`
 RUN apt-get -qq update
 
 ENV TIME_ZONE Asia/Shanghai
 RUN echo \${TIME_ZONE} > /etc/timezone && \
     dpkg-reconfigure --frontend noninteractive tzdata
+
+ENV workdir $0
+RUN mkdir \${workdir}
+WORKDIR \${workdir}
+ADD . \${workdir}
 
 # `(file-name-nondirectory (buffer-file-name))` ended here
