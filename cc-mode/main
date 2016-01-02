@@ -1,11 +1,10 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-01-23 21:19:38 Monday by richard>
+# Last modified: <2016-01-02 20:23:21 Saturday by wongrichard>
 # name: int main(argc, argv) { ... }
 # key: main
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     $0
     return 0;
 }

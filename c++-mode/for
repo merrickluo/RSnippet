@@ -2,10 +2,9 @@
 # Time-stamp: <2011-05-27 12:44:59 Friday by richard>
 # name: for(size_t i = 0;;)
 # key: for
-# contributor: Richard Wong 
+# contributor: Richard Wong
 # Email: chao78787@Gmail.com
 # --
-for(${1:size_t} ${2:i} = 0; $2 != ${3:MAX}; ++$2)
-{
+for(${1:size_t} ${2:i} = 0; $2 != ${3:MAX}; ++$2) {
     $0
 }

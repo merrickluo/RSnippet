@@ -3,8 +3,7 @@
 # key: class
 # contributor: Andrea Crotti
 # --
-class ${1:Name}
-{
+class ${1:Name} {
 public:
     ${1:$(yas/substr text "[^: ]*")}();
     ${2:virtual ~${1:$(yas/substr text "[^: ]*")}();}

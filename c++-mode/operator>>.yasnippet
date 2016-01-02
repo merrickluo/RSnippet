@@ -1,11 +1,10 @@
 # -*- mode: snippet -*-
-# Last modified: <2012-03-05 15:56:41 Monday by richard>
+# Last modified: <2016-01-02 20:21:40 Saturday by wongrichard>
 # name: operator>>
 # key: >>
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-std::istream& operator>>(std::istream& is, const ${1:`(find-backward-class-name)`}& ${2:c})
-{
+std::istream& operator>>(std::istream& is, const ${1:`(find-backward-class-name)`}& ${2:c}) {
          $0
          return is;
 }

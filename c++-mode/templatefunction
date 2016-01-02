@@ -2,12 +2,11 @@
 # Time-stamp: <2011-05-23 14:47:16 Monday by richard>
 # name: templatefunction
 # key: tf
-# contributor: Richard Wong 
+# contributor: Richard Wong
 # Email: chao78787@Gmail.com
 # --
 
 template <typename ${1:T}>
-${2:$1} ${3:function}($4) 
-{
+${2:$1} ${3:function}($4) {
     $0
 }
