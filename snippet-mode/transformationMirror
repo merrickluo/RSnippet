@@ -5,4 +5,4 @@
 # contributor: Richard Wong <chao78787@Gmail.com>
 # --
 \${${1:1}:Title}
-\${${1:1}:\$(make-string (string-width text) ?\=)}
+\${${1:1}:\$(make-string (string-width yas-text) ?\=)}

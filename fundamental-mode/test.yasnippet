@@ -1,7 +1,10 @@
 # -*- mode: snippet -*-
+# Last modified: <2016-01-22 11:41:50 Friday by wongrichard>
 # name: test
 # key: test
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# contributor: Richard Wong <chao787@gmail.com>
 # --
 ${1:with default value}
 $1
-${1:upcase text}
+${1:$(upcase yas-text)}
