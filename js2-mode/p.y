@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2016-04-08 20:38:35 Friday by wongrichard>
-# name: print
+# Last modified: <2016-05-02 19:46:58 Monday by wongrichard>
+# name: p
 # key: p
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-(println $0)
+console.log("${1:str}", $1);

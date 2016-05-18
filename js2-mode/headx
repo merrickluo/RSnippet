@@ -1,19 +1,19 @@
 # -*- mode: snippet -*-
-# Last modified: <2015-01-08 15:19:27 Thursday by wongrichard>
+# Last modified: <2016-05-02 19:04:34 Monday by wongrichard>
 # name: headx
 # key: headx
 # contributor: Richard Wong <chao787@gmail.com>
 # --
 'use strict';
 
-/**
- * @name `(file-name-nondirectory (buffer-file-name))`
- * @description
- *
- * # `(file-name-nondirectory (buffer-file-name))`
- *
- * $0
- */
+//
+// @name `(file-name-nondirectory (buffer-file-name))`
+// @description
+//
+// # `(file-name-nondirectory (buffer-file-name))`
+//
+// $0
+//
 
 var app = angular.module("$0`(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`", []);
 
