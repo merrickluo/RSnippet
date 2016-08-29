@@ -1,10 +1,9 @@
 # -*- mode: snippet -*-
-# Last modified: <2013-02-25 18:41:24 Monday by richard>
+# Last modified: <2016-05-26 10:17:32 Thursday by richard>
 # name: headx
 # key: headx
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-;; -*- Emacs-Lisp -*-
 ;; Last modified: <2011-12-08 20:40:21 Thursday by richard>
 
 ;; Copyright (C) `(format-time-string "%Y")` `user-full-name`
@@ -17,5 +16,4 @@
 $0
 
 
-;; `el-provide-name` ends here.
-;;;
+;; `(file-name-nondirectory (buffer-file-name))` ends here

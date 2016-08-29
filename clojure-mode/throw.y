@@ -1,10 +1,8 @@
 # -*- mode: snippet -*-
-# Last modified: <2016-05-31 14:53:24 Tuesday by richard>
-# name: then
-# key: then
+# Last modified: <2016-06-15 20:47:26 Wednesday by richard>
+# name: throw
+# key: throw
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # contributor: Richard Wong <chao787@gmail.com>
 # --
-then((resp) => {
-    $0
-});
+(throw (ex-info "$0" {:causes #{:some-error}}))
